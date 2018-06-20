@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/jse-uml-overloading.iml" filepath="$PROJECT_DIR$/jse-uml-overloading.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SI_03_Overloading.iml" filepath="$PROJECT_DIR$/SI_03_Overloading.iml" />
     </modules>
   </component>
 </project>
