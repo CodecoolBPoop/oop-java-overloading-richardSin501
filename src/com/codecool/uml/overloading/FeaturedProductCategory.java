@@ -4,8 +4,8 @@ import java.util.Date;
 
 public class FeaturedProductCategory extends ProductCategory {
 
-    Date startDate;
-    Date endDate;
+    private Date startDate;
+    private Date endDate;
 
     public void schedule(Date startDate, Date endDate) {
         this.startDate = startDate;

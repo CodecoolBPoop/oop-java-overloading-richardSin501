@@ -7,14 +7,14 @@ import java.util.List;
 public class Product {
 
     static int nextID = 1;
-    static List<Product> productList = new ArrayList<>();
+    private static List<Product> productList = new ArrayList<>();
 
-    int id;
-    String name;
-    float defaultPrice;
-    Currency defaultCurrency;
-    ProductCategory productCategory;
-    Supplier supplier;
+    private int id;
+    private String name;
+    private float defaultPrice;
+    private Currency defaultCurrency;
+    private ProductCategory productCategory;
+    private Supplier supplier;
 
     public Product() {
         this.id = nextID;

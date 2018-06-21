@@ -6,10 +6,10 @@ public class ProductCategory {
 
     static int nextID = 1;
 
-    int id;
-    String name = null;
-    String department = null;
-    String description = null;
+    private int id;
+    private String name = null;
+    private String department = null;
+    private String description = null;
 
     public ProductCategory() {
         this.id = nextID;

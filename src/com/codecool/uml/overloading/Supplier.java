@@ -6,9 +6,9 @@ public class Supplier {
 
     static int nextID = 1;
 
-    int id;
-    String name;
-    String description;
+    private int id;
+    private String name;
+    private String description;
 
     public Supplier() {
         this.id = nextID;
